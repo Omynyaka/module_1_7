@@ -1,0 +1,13 @@
+grades=[[5,3,3,5,4],[2,2,2,3],[4,5,5,2],[4,4,3,],[5,5,5,4,5]]
+students={'Johny','Bilbo','Steve','Khendrik','Aaron'}
+students_list=list(students)
+list.sort(students_list)
+student_grades={}
+a=(len(grades[0]))
+b=(len(grades[1]))
+c=(len(grades[2]))
+d=(len(grades[3]))
+e=(len(grades[4]))
+print(students_list)
+student_grades.update({students_list[0]:(sum(grades[0])/a),students_list[1]:((sum(grades[1])/b)),students_list[2]:((sum(grades[2]))/c),students_list[3]:((sum(grades[3]))/d),students_list[4]:((sum(grades[4]))/e)})
+print(student_grades)
